@@ -60,5 +60,5 @@
 
 ## License - Licencia
 
-(EN) This project is licensed under the MIT License - see the [LICENSE](https://github.com/erovas/bodyReady.js/blob/main/LICENSE) file for details.\
-(ES) Este proyecto está licenciado bajo Licencia MIT - ver el archivo [LICENCIA](https://github.com/erovas/bodyReady.js/blob/main/LICENSE) para mas detalles.
+(EN) This project is licensed under the BSD 3-Clause License - see the [LICENSE](https://github.com/erovas/bodyReady.js/blob/main/LICENSE) file for details.\
+(ES) Este proyecto está licenciado bajo Licencia BSD 3-Clause - ver el archivo [LICENCIA](https://github.com/erovas/bodyReady.js/blob/main/LICENSE) para mas detalles.
