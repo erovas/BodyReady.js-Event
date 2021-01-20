@@ -33,10 +33,18 @@
             window.addEventListener('bodyReady', function(){
                 document.body.appendChild(div_3);
             }, { once: true });
+
+            window.addEventListener('bodyReady', function(){
+                const text = document.getElementById('text');
+                text.textContent = "Good bye - Hasta luego";
+            }, { once: true });
         </script>
     </head>
     <body>
         <!-- page content - contenido de la página -->
+        <div id="text">
+            Hello - hola
+        </div>
     </body>
 </html>
 ```
