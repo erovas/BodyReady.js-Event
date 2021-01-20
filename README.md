@@ -49,6 +49,13 @@
 </html>
 ```
 
+## Execution order - Orden de ejecución
+
+1. "bodyReady".\
+2. Defer or Module script.\
+3. "DOMContentLoaded".\
+4. "load".
+
 ## Notes - Notas
 
 (EN) Lite version does not have polyfill for internet explorer.\
