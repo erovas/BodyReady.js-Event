@@ -1,5 +1,5 @@
-# bodyReady.js
-Small script that adds the "bodyReady" event, which is similar to "DOMContentLoaded", but it is fired before (before than Defer or Module script).
+# BodyReady.js Event
+Small script that adds the "BodyReady" event, which is similar to "DOMContentLoaded", but it is fired before (before than Defer or Module script).
 
 ## Compatibility
 
@@ -19,19 +19,19 @@ This script must be put in the head tag of html document.
             const div_2 = document.createElement('div');
             const div_2 = document.createElement('div');
             
-            window.onbodyReady = function(){
+            window.onBodyReady = function(){
                 document.body.appendChild(div_1);
             }
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 document.body.appendChild(div_2);
             }, false);
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 document.body.appendChild(div_3);
             }, { once: true });
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 const text = document.getElementById('text');
                 text.textContent = "Good bye - Hasta luego";
             }, { once: true });
@@ -69,8 +69,8 @@ This project is licensed under the BSD 3-Clause License - see the [LICENSE](http
 
 # SPANISH
 
-# bodyReady.js
-Pequeño script que agrega el evento "bodyReady", el cual es similar a "DOMContentLoaded", pero este se dispara antes (antes que un script en Defer o Module).
+# Evento BodyReady.js
+Pequeño script que agrega el evento "BodyReady", el cual es similar a "DOMContentLoaded", pero este se dispara antes (antes que un script en Defer o Module).
 
 ## Compatibilidad
 
@@ -90,19 +90,19 @@ Este script debe ser puesta en la etiqueta head del documento html.
             const div_2 = document.createElement('div');
             const div_2 = document.createElement('div');
             
-            window.onbodyReady = function(){
+            window.onBodyReady = function(){
                 document.body.appendChild(div_1);
             }
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 document.body.appendChild(div_2);
             }, false);
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 document.body.appendChild(div_3);
             }, { once: true });
 
-            window.addEventListener('bodyReady', function(){
+            window.addEventListener('BodyReady', function(){
                 const text = document.getElementById('text');
                 text.textContent = "Good bye - Hasta luego";
             }, { once: true });
@@ -119,7 +119,7 @@ Este script debe ser puesta en la etiqueta head del documento html.
 
 ## Orden de ejecución
 
-1. "bodyReady".
+1. "BodyReady".
 2. Defer or Module script.
 3. "DOMContentLoaded".
 4. "load".
