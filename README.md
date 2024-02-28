@@ -13,7 +13,7 @@ This script must be put in the head tag of html document.
 <html>
     <head>
         <title> My page - Mi página </title>
-        <script src="bodyReady.js"></script>
+        <script src="BodyReady.js"></script>
         <script>
             const div_1 = document.createElement('div');
             const div_2 = document.createElement('div');
@@ -84,7 +84,7 @@ Este script debe ser puesta en la etiqueta head del documento html.
 <html>
     <head>
         <title> My page - Mi página </title>
-        <script src="bodyReady.js"></script>
+        <script src="BodyReady.js"></script>
         <script>
             const div_1 = document.createElement('div');
             const div_2 = document.createElement('div');
