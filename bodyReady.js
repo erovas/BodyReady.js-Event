@@ -9,7 +9,7 @@
 (function(window, document){
 
     const CUSTOM_EVENT = 'CustomEvent';
-    const BODY_READY = 'bodyReady';
+    const BODY_READY = 'BodyReady';
     const FUNCTION = 'function';
 
     //Polyfill for IE | Taken and modified from https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#polyfill

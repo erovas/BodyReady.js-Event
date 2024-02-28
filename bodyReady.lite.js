@@ -6,7 +6,7 @@
  */
 (function(window, document){
 
-    const BODY_READY = 'bodyReady';
+    const BODY_READY = 'BodyReady';
 
     const bodyReady = new CustomEvent(BODY_READY);
 
