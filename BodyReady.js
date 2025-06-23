@@ -3,7 +3,7 @@
  * Pequeño script que agrega el evento "bodyReady" similar a "DOMContentLoaded", pero que se dispara una vez el <body> está disponible
  * [Back-compatibility: IE11+]
  * Copyright (c) 2021, Emanuel Rojas Vásquez
- * BSD 3-Clause License [https://github.com/erovas/bodyReady.js/blob/main/LICENSE]
+ * MIT License
  * https://github.com/erovas/bodyReady.js
  */
 (function(window, document){
