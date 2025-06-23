@@ -1,7 +1,7 @@
 /*
  * bodyReady.js v1.0.0
  * Copyright (c) 2021, Emanuel Rojas Vásquez
- * BSD 3-Clause License [https://github.com/erovas/bodyReady.js/blob/main/LICENSE]
+ * MIT License
  * https://github.com/erovas/bodyReady.js
  */
 (function(window, document){
